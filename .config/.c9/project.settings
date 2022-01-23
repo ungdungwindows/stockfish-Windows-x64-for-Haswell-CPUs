@@ -9,6 +9,9 @@
     "general": {
         "@stripws": true
     },
+    "language": {
+        "@undeclaredVars": true
+    },
     "python": {
         "@path": "/usr/local/lib/python3.7/site-packages"
     }

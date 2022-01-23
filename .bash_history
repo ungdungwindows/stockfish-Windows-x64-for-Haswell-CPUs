@@ -36,3 +36,13 @@ git remote remove origin
 git commit -m "v3.10.2 x64"
 git branch -M main
 git remote add origin https://github.com/ungdungwindows/python.git
+git add .
+git commit -m "v3.10.2 x64"
+git branch -M main
+git remote add origin https://github.com/ungdungwindows/python.git
+git push -u origin main
+wget https://abrok.eu/stockfish/builds/9083050be692b2d9a4f281e78b967755e00cfc39/linux64/stockfish_22012210_x64.zip
+unzip stockfish_22012210_x64.zip
+wget https://abrok.eu/stockfish/builds/9083050be692b2d9a4f281e78b967755e00cfc39/win64avx2/stockfish_22012210_x64_avx2.zip
+unzip stockfish_22012210_x64_avx2.zip
+git add .
