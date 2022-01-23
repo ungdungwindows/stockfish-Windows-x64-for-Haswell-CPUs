@@ -11,3 +11,28 @@ git branch -M main
 git remote add origin https://github.com/ntrunghn/test.git
 git push -u origin main
 git pull --rebase
+git add .
+git commit -m "2nd"
+git push -u origin main
+git config --global user.email "nt168u@gmail.com"
+git config --global user.name "ntrunghn"
+wget https://nodejs.org/dist/v17.4.0/node-v17.4.0-win-x64.zip
+unzip node-v17.4.0-win-x64.zip
+git init
+git add .
+git config --global user.email "nt168u@gmail.com"
+git config --global user.name "ntrunghn"
+git commit -m "v17.4.0 x64"
+git branch -M main
+git remote add origin https://github.com/ungdungwindows/nodejs.git
+git push -u origin main
+git commit -m "v17.4.0 x64"
+git branch -M main
+git remote add origin https://github.com/ungdungwindows/nodejs.git
+git push -u origin main
+wget https://www.python.org/ftp/python/3.10.2/python-3.10.2-embed-amd64.zip
+unzip python-3.10.2-embed-amd64.zip
+git remote remove origin
+git commit -m "v3.10.2 x64"
+git branch -M main
+git remote add origin https://github.com/ungdungwindows/python.git
